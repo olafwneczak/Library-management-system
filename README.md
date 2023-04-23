@@ -13,12 +13,18 @@ The Library Management System has following features:
 &#8226; Displaying library collection: Allows user to display existing items with their details and availability status.
 ## Example of use
 After running program the option selection menu is displayed. User can choose one of the options:   
+  
 ![menu.png](images/menu.png)  
 
 When option is selected by user, program asks to choose type of work:  
+  
 ![work_type_selection.png](images/work_type_selection.png)  
+  
 In this example, a book is added, and then removed. User must provide author's name, title and ISBN number.  
+  
 ![book_adding_example.png](images/ex_book.png)  
+  
 If ISBN number is valid, book is added. After that option selection menu is displayed again.  
 In order to delete existing work user must first choose it's type and provide unique ID assigned to the work. If ID doesn't match any work, relevant information is displayed.  
+  
 ![delete_book.png](images/ex_delete.png)  
